@@ -131,6 +131,9 @@
 
 			//移动过程
 	                focuEle.bind('mousemove',function(e){
+	                		   e.preventDefault();
+					 window.event.returnValue = false;							
+	                	
 				if(bDraging)
 				{    
 					//被移动元素的新位置，实际上鼠标当前位置与原位置之差
