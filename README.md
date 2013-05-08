@@ -1,4 +1,5 @@
-jQuery-full-screen-gallery HTML5 全屏幻灯组图浏览
+jQuery-full-screen-gallery HTML5
+全屏幻灯组图浏览
 ==========================
 
   由于经常拍照，对于高清大照片，总觉得电脑屏幕太小看着不太爽，想放大看细节也不太方便，既然HTML5支持全屏了，那为何不用呢？
@@ -12,6 +13,8 @@ jQuery-full-screen-gallery HTML5 全屏幻灯组图浏览
   
 HTML：
   
+  ```html
+
 <div id="container">
 <a href="http://my.dili360.com/attachments/201007/22/152134_1279811418WI0X.jpg"  rel="fullScreenGallery" title="那一年荷花开满池塘">
 <img src="http://my.dili360.com/attachments/201007/22/152134_12798105832520.jpg.thumb.jpg" width="200">
@@ -20,13 +23,18 @@ HTML：
 <img src="http://my.dili360.com/attachments/201007/22/152134_12798105832520.jpg.thumb.jpg" width="200">
 </a>
 </div>
+  ```
 
 为A链接 链接增加 rel="fullScreenGallery" 属性，href为大图的地址。
 
-JS调用
+JS调用:
+
+  ```html
 
 <script type="text/javascript">
   $('#container a[rel="fullScreenGallery"]').fullScreenGallery();
 </script>
+  ```
+
 
   
